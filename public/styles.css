@@ -1,0 +1,45 @@
+html{
+    background-color: bisque;
+}
+
+
+body {
+    background-color: bisque;
+}
+
+
+
+h1 {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(20, 1, 1);
+    font-size: 20px;
+    margin: 5px;
+  
+   
+}
+
+div.box {
+    background-color: rgb(109, 147, 185);
+    position: relative;
+    width: relative;
+    margin: 1%;
+    margin-top: 0%;
+    padding: 1px;
+}
+
+th{
+    background-color: rgb(240, 108, 119);
+}
+
+td{
+    background-color: rgb(197, 237, 238);
+}

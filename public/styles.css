@@ -43,3 +43,9 @@ th{
 td{
     background-color: rgb(197, 237, 238);
 }
+
+table {
+    background-color: slategray;
+    position: relative;
+    padding: 5px;
+}

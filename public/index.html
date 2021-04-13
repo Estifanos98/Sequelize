@@ -2,37 +2,90 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Estifanos Tesfu Kidane's Lab 8</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
     />
+  
     <link rel="stylesheet" href="styles.css" />
+    
+    <title>Estifanos Tesfu Kidane Lab 10</title>
   </head>
   <body>
-    <h1 class="title is-3 has-text-centered">Estifanos Tesfu Kidane Lab 8</h1>
-    <br />
-    <div class="block">
-      <h2>UMD Campus Dining Halls</h2>
-
-      <div class="box">
-        <table
-          class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth"
-        >
-          <thead>
-            <tr>
-              <th>Hall ID</th>
-              <th>Hall Name</th>
-              <th>Hall Address</th>
-            </tr>
-          </thead>
-          <tbody class="result-list"></tbody>
-        </table>
-      </div>
+    
+    
+    <h1><strong>Estifanos Tesfu Kidane Lab 10</strong></h1>
+  </br>
+  
+<div class="block">
+    
+    <div class = "box">
+      <h2>UMD Dining Halls</h2>
+      <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+        <thead>
+          <tr>
+            <th>
+              Hall ID
+            </th>
+            <th>
+              Hall Name
+            </th>
+            <th>
+              Hall Address
+            </th>
+          </tr>
+        </thead>
+        <tbody class="target"></tbody>
+      </table>
     </div>
-    <!-- connect Javascript file -->
-    <script src="scripts.js"></script>
+    <div class = box>
+    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+  </div>
+</br>
+<div class=box>
+  <h2>UMD Dining Hall Meal Chart</h2>
+    <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+      <thead>
+        <tr>
+          <th>
+            Meal ID
+          </th>
+          <th>
+            Meal Name
+          </th>
+          <th>
+            Calories
+          </th>
+          <th>
+            Carbs
+          </th>
+          <th>
+            Cholesterol  
+          </th>
+          <th>
+            Fat
+          </th>
+          <th>
+            Protein
+          </th>
+          <th>
+            Sodium
+          </th>
+          <th>
+            Serving Size
+          </th>
+        </tr>
+      </thead>
+      <tbody class="mealTable"></tbody>
+  </table>
+</div>
+    
+    </table>
+    </div>
+  </br>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+  <script src="./scripts.js"></script>
   </body>
 </html>
